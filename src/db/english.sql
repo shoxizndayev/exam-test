@@ -1,6 +1,5 @@
 INSERT INTO tests (test_title, sciences_id)
-    VALUES ('Choose the answer which correctly completes the sentence. Esperanto is a specially invented language based on about 2000 common words, but it … to a wide area since it … by Dr. Zamenhof, who hoped it would improve communications between nations.', 3);
-    ('Choose the answer which correctly completes the sentence. … my father has lived in southern Spain since he retired, he has never bothered to learn the language.', 3), 
+    VALUES ('Choose the answer which correctly completes the sentence. … my father has lived in southern Spain since he retired, he has never bothered to learn the language.', 3), 
     ('Choose the answer which correctly completes the sentence. … unhappy he may be with his job, the money is so good that he feels he has to stay there.', 3), 
     ('Choose the answer which correctly completes the sentence. Although some large companies and arms dealers make … money whenever there is a war, most people believe that there is … war and suffering in the world.', 3), 
     ('Choose the answer which correctly completes the sentence. I was so worried the night before the exam that I could not sleep, but in fact, it was so easy that … did I pass, … I also got a very good mark.', 3), 
@@ -15,6 +14,8 @@ INSERT INTO tests (test_title, sciences_id)
     ('Choose the answer which correctly completes the sentence. I`ve wanted to see … since I came back from holiday because I have to return … camera.', 3),
     ('Choose the answer which correctly completes the sentence. Now that we … the money they owed to us, we … able to buy a new mobile phone.', 3);
 
+
+('Choose the answer which correctly completes the sentence. Esperanto is a specially invented language based on about 2000 common words, but it … to a wide area since it … by Dr. Zamenhof, who hoped it would improve communications between nations.', 3);
 
 --#31
 INSERT INTO answers (answers_title, tests_id)

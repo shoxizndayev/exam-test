@@ -15,7 +15,6 @@ INSERT INTO tests (test_title, sciences_id)
     ('Qotishma kumush va oltindan iborat bo`lib, o`zaro 3:5 nisbatda. Agar qotishmada 45 kg oltin bo`lsa, qotishmaning og`irligini (kg) toping.', 1),
     ('Eritma tarkibida 6060 gramm tuz bor. Unga 400400 gramm toza suv qo`shilsa, tuzning konsentrasiyasi 55 marta kamaydi. Dastlabki eritma necha gramm bo`lgan?', 1);
 
--- 2 - savolga javobi bilan kiritildi
 
 --#1
 INSERT INTO answers (answers_title, tests_id)
