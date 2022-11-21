@@ -50,7 +50,7 @@ async function Result({ first_sciences, second_sciences, user_result_id}, user_i
                 result.second_sciences_id = findanswer.sciences_id
             }
         })
-        result.result_finish = result.first_sciences_true * 9 + result.second_sciences_true * 6 + 30;
+        result.result_finish = result.first_sciences_true * 3.2 + result.second_sciences_true * 3.1 + 30;
         return await fetch(RESULT, result.user_id, result.first_sciences_true, result.second_sciences_true, result.first_sciences_id, result.second_sciences_id, result.result_finish, user_result_id )
     } catch (error) {
         console.log(error);
